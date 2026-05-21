@@ -1,7 +1,7 @@
 {
   "version": "2.0.9",
   "title": "Online Updates and SQL Backup",
-  "download_url": "https://github.com/BoyPalab2023/church/releases/download/v2.0.9/ChurchDatabaseSystem_Update_v2.0.9_OnlineUpdatesSqlBackup.exe",
+  "download_url": "https://github.com/BoyPalab2023/Church-Database-System/releases/download/v2.0.9/ChurchDatabaseSystem_Update_v2.0.9_OnlineUpdatesSqlBackup.exe",
   "sha256": "F6666FED58E0E900BB22C80014BEE8C1C7DCB2353D9EECAC71EC71746F860DAE",
   "release_notes": [
     "Adds online update checking from GitHub.",
