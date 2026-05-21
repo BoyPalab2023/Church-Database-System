@@ -1,11 +1,12 @@
-{
-  "version": "2.0.10",
-  "title": "Online Update 404 Fix",
-  "download_url": "https://github.com/BoyPalab2023/Church-Database-System/releases/latest/download/ChurchDatabaseSystem_Update_v2.0.10_OnlineUpdate404Fix.exe",
-  "sha256": "3A281859426CE0738B3AC1658E16A52F92ADC73153400EE4D99B7CB5376741BA",
-  "release_notes": [
-    "Uses GitHub latest Release asset for latest.json.",
-    "Shows clear instructions if GitHub returns 404.",
-    "Keeps automatic .sql backup before online updates."
-  ]
+﻿{
+    "version":  "2.0.12",
+    "title":  "Church Management Branding",
+    "update_type":  "patch",
+    "download_url":  "https://github.com/BoyPalab2023/Church-Database-System/releases/latest/download/ChurchManagementSystem_Update_v2.0.12_ChurchManagementBranding.exe",
+    "sha256":  "539E5C89E958260BCA86A27615A457DBA10ACC97575CD2C87E2820A773E2B1AC",
+    "release_notes":  [
+                          "Adds the new CMS book/database logo to the login page and top header.",
+                          "Updates the desktop shortcut icon and launcher icon.",
+                          "Renames visible shortcut/setup branding to Church Management System while keeping existing data paths safe."
+                      ]
 }
