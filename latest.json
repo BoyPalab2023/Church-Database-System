@@ -1,14 +1,13 @@
 {
-    "version": "2.0.15",
-    "title": "Layout and Restore Encoding Polish",
+    "version": "2.0.16",
+    "title": "Single Church Backup and Restore",
     "update_type": "patch",
-    "download_url": "https://github.com/BoyPalab2023/Church-Database-System/releases/latest/download/ChurchManagementSystem_Update_v2.0.15_LayoutEncodingPolish.exe",
-    "sha256": "88E1E20717FDB69D6EA87A0413202A69339FA4AA5C9863517ABD97CEEC9D1C8F",
+    "download_url": "https://github.com/BoyPalab2023/Church-Database-System/releases/latest/download/ChurchManagementSystem_Update_v2.0.16_SingleChurchBackupRestore.exe",
+    "sha256": "83057336FCE7539A1D26BFF1FB7FBBF6361F48D336ABE2C1E526BE01E61BBB0C",
     "release_notes": [
-        "Removes the Dashboard Settings button from the dashboard header.",
-        "Expands the dashboard layout so wide screens use more space.",
-        "Expands the visitor page layout while keeping it responsive on small screens.",
-        "Displays member directory place names in uppercase.",
-        "Improves SQL restore encoding so future restores preserve Ñ/ñ from UTF-8 or Windows-1252 backups."
+        "Backup from logout now creates a one-church SQL backup when a church workspace is active.",
+        "One-church restore now registers the restored church into the workspace list.",
+        "If the restored database name already exists, restore uses a safe restored database name instead of overwriting another church.",
+        "Older one-database SQL backups without master registry data can now be restored as a visible workspace."
     ]
 }
