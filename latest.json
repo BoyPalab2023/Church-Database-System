@@ -1,13 +1,11 @@
 {
-    "version": "2.0.16",
-    "title": "Single Church Backup and Restore",
+    "version": "2.0.17",
+    "title": "Single Church Restore Hotfix",
     "update_type": "patch",
-    "download_url": "https://github.com/BoyPalab2023/Church-Database-System/releases/latest/download/ChurchManagementSystem_Update_v2.0.16_SingleChurchBackupRestore.exe",
-    "sha256": "83057336FCE7539A1D26BFF1FB7FBBF6361F48D336ABE2C1E526BE01E61BBB0C",
+    "download_url": "https://github.com/BoyPalab2023/Church-Database-System/releases/latest/download/ChurchManagementSystem_Update_v2.0.17_SingleChurchRestoreHotfix.exe",
+    "sha256": "0D9E877D632D00E0D142816D8EF2CF461A8A8020AC1FE87BA1DD934849292155",
     "release_notes": [
-        "Backup from logout now creates a one-church SQL backup when a church workspace is active.",
-        "One-church restore now registers the restored church into the workspace list.",
-        "If the restored database name already exists, restore uses a safe restored database name instead of overwriting another church.",
-        "Older one-database SQL backups without master registry data can now be restored as a visible workspace."
+        "Fixes one-church restore registration error caused by closing the master workspace registry connection too early.",
+        "One-church restore can now register the restored church into the workspace list."
     ]
 }
