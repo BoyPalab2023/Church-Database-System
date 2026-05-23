@@ -1,11 +1,13 @@
 {
-    "version": "2.0.17",
-    "title": "Single Church Restore Hotfix",
+    "version": "2.0.22",
+    "title": "Location Enye Repair",
     "update_type": "patch",
-    "download_url": "https://github.com/BoyPalab2023/Church-Database-System/releases/latest/download/ChurchManagementSystem_Update_v2.0.17_SingleChurchRestoreHotfix.exe",
-    "sha256": "0D9E877D632D00E0D142816D8EF2CF461A8A8020AC1FE87BA1DD934849292155",
+    "download_url": "https://github.com/BoyPalab2023/Church-Database-System/releases/latest/download/ChurchManagementSystem_Update_v2.0.22_LocationEnyeRepair.exe",
+    "sha256": "AA2F4E98E079419B80847AA706FBF0AF675664001B288164139B8BDF99C563F0",
     "release_notes": [
-        "Fixes one-church restore registration error caused by closing the master workspace registry connection too early.",
-        "One-church restore can now register the restored church into the workspace list."
+        "Repairs municipality, province, barangay, resident address, and visitor address text where old data stored enye as ??.",
+        "Cleans location lookup tables after SQL restore so future member edits do not re-save broken place names.",
+        "Member add/edit now stores selected province and municipality names from the repaired lookup tables.",
+        "Resident and Sunday School address dropdowns display repaired location names."
     ]
 }
