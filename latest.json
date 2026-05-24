@@ -1,13 +1,14 @@
 {
-    "version": "2.0.22",
-    "title": "Location Enye Repair",
+    "version": "2.0.23",
+    "title": "Attendance Activity Launcher Polish",
     "update_type": "patch",
-    "download_url": "https://github.com/BoyPalab2023/Church-Database-System/releases/latest/download/ChurchManagementSystem_Update_v2.0.22_LocationEnyeRepair.exe",
-    "sha256": "AA2F4E98E079419B80847AA706FBF0AF675664001B288164139B8BDF99C563F0",
+    "download_url": "https://github.com/BoyPalab2023/Church-Database-System/releases/latest/download/ChurchManagementSystem_Update_v2.0.23_AttendanceActivityLauncherPolish.exe",
+    "sha256": "C36FBA3301F51D73F8F3092740622E0BF49C7184EB19E153DE5695EEC0099F93",
     "release_notes": [
-        "Repairs municipality, province, barangay, resident address, and visitor address text where old data stored enye as ??.",
-        "Cleans location lookup tables after SQL restore so future member edits do not re-save broken place names.",
-        "Member add/edit now stores selected province and municipality names from the repaired lookup tables.",
-        "Resident and Sunday School address dropdowns display repaired location names."
+        "Attendance report removes whole-month total, keeps average and highest attendance, and uses Service Breakdown wording.",
+        "Attendance report print layout now fits letter bond paper with logo and church information at the top.",
+        "Attendance page reloads when the selected date changes so the present count matches that date.",
+        "Activity notes can save text-only notes without being blocked by image upload folder checks.",
+        "Launcher uses the CMS logo, Please Wait status wording, and blinking traffic lights."
     ]
 }
