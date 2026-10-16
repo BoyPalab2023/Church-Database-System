@@ -1,13 +1,13 @@
 {
-    "version":  "2.0.32",
-    "title":  "Online License Request",
-    "update_type":  "patch",
-    "download_url":  "https://github.com/BoyPalab2023/Church-Database-System/releases/download/v2.0.32/ChurchManagementSystem_Update_v2.0.32_LicenseRequestPortal.exe",
-    "sha256":  "86D6C55DFD20C0540AC2F20F9358DE1F2A60AF8CE48A4AE70D81B7CE064F5757",
-    "release_notes":  [
-                          "Adds an online Request Approval action to the activation window.",
-                          "Connects the launcher to the Cloudflare licensing request portal.",
-                          "Keeps church databases and existing signed activation files unchanged.",
-                          "License approval remains manual; no billing is processed automatically."
-                      ]
+  "version": "2.0.33",
+  "title": "Account Settings Fix",
+  "update_type": "patch",
+  "download_url": "https://github.com/BoyPalab2023/Church-Database-System/releases/download/v2.0.33/ChurchManagementSystem_Update_v2.0.33_AccountSettingsFix.exe",
+  "sha256": "432D612EC1C10D29971279E55F5BABCA71F5389E3A9AD0D7AC7D21ECEB149F09",
+  "release_notes": [
+    "Stops account settings from repeating the success alert by navigating to a fresh page after saving.",
+    "Username changes now update the active session immediately.",
+    "Blank password fields keep the current password and discourage browser autofill.",
+    "Preserves church data and activation files."
+  ]
 }
