@@ -1,13 +1,13 @@
 {
-  "version": "2.0.33",
-  "title": "Account Settings Fix",
+  "version": "2.0.34",
+  "title": "Username Change Sign-out",
   "update_type": "patch",
-  "download_url": "https://github.com/BoyPalab2023/Church-Database-System/releases/download/v2.0.33/ChurchManagementSystem_Update_v2.0.33_AccountSettingsFix.exe",
-  "sha256": "432D612EC1C10D29971279E55F5BABCA71F5389E3A9AD0D7AC7D21ECEB149F09",
+  "download_url": "https://github.com/BoyPalab2023/Church-Database-System/releases/download/v2.0.34/ChurchManagementSystem_Update_v2.0.34_UsernameChangeSignOut.exe",
+  "sha256": "5D5987963BAAAF87179383D37C923C2A0ABF8C265A2689F03726E9C64031DBD1",
   "release_notes": [
-    "Stops account settings from repeating the success alert by navigating to a fresh page after saving.",
-    "Username changes now update the active session immediately.",
-    "Blank password fields keep the current password and discourage browser autofill.",
+    "Automatically signs out and returns to the sign-in page after a username change.",
+    "Leaving both password fields blank keeps the current password.",
+    "Changing other account details without changing the username keeps the current session.",
     "Preserves church data and activation files."
   ]
 }
