@@ -1,14 +1,13 @@
 {
-    "version": "2.0.23",
-    "title": "Attendance Activity Launcher Polish",
-    "update_type": "patch",
-    "download_url": "https://github.com/BoyPalab2023/Church-Database-System/releases/latest/download/ChurchManagementSystem_Update_v2.0.23_AttendanceActivityLauncherPolish.exe",
-    "sha256": "C36FBA3301F51D73F8F3092740622E0BF49C7184EB19E153DE5695EEC0099F93",
-    "release_notes": [
-        "Attendance report removes whole-month total, keeps average and highest attendance, and uses Service Breakdown wording.",
-        "Attendance report print layout now fits letter bond paper with logo and church information at the top.",
-        "Attendance page reloads when the selected date changes so the present count matches that date.",
-        "Activity notes can save text-only notes without being blocked by image upload folder checks.",
-        "Launcher uses the CMS logo, Please Wait status wording, and blinking traffic lights."
-    ]
+    "version":  "2.0.32",
+    "title":  "Online License Request",
+    "update_type":  "patch",
+    "download_url":  "https://github.com/BoyPalab2023/Church-Database-System/releases/download/v2.0.32/ChurchManagementSystem_Update_v2.0.32_LicenseRequestPortal.exe",
+    "sha256":  "86D6C55DFD20C0540AC2F20F9358DE1F2A60AF8CE48A4AE70D81B7CE064F5757",
+    "release_notes":  [
+                          "Adds an online Request Approval action to the activation window.",
+                          "Connects the launcher to the Cloudflare licensing request portal.",
+                          "Keeps church databases and existing signed activation files unchanged.",
+                          "License approval remains manual; no billing is processed automatically."
+                      ]
 }
